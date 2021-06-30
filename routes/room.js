@@ -6,6 +6,8 @@ var roomController = require('../controllers/roomController');
 
 //Routes
 app.post('/saveroom/:userId', verificaToken, roomController.save);
+app.post('/savecoord/:userId', verificaToken, roomController.saveCoord);
+app.get('/savecoord/:userId', verificaToken, roomController.getSaved);
 //app.put('/client/:id', roomController.update);
 
 
