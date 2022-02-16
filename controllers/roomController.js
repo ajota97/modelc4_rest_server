@@ -118,8 +118,14 @@ var controller = {
 
 
 
+    },
+    enterRoom: (req = request, res = response) => {
+
+
     }
 
 
 }
+
+
 module.exports = controller;
